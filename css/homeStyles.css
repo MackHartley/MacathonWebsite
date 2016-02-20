@@ -1,0 +1,20 @@
+/*
+colors:
+Brown : #e99b35
+Yellow: #ffff4d;
+Gray  : #ede6de;
+Teal  : #36e2e2
+Blue  : #1e8cfa;
+;
+*/
+
+
+.homeTitle{
+	color: #1e8cfa;
+	font-size: 70px;
+	position: relative;
+	top: 200px;
+	left: 20%;
+	
+
+}
