@@ -7,14 +7,39 @@ Teal  : #36e2e2
 Blue  : #1e8cfa;
 ;
 */
+body{
+	background-color: red;
+}
 
+.buttonHolder{
+	display: inline-block;
+	padding: 20px
+}
+
+.buttonHolderUl{
+	margin: auto;
+	width: 90%;
+}
+
+.center{
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+}
 
 .homeTitle{
 	color: #1e8cfa;
-	font-size: 70px;
-	position: relative;
-	top: 200px;
-	left: 20%;
-	
-
+	font-size: 100px;
+	font-family: Verdana;
 }
+
+.buyButton{
+	height: 100px;
+	width: 200px;
+	font-size: 30px;
+}
+.sellButton{
+	height: 100px;
+	width: 200px;
+}
+
