@@ -1,0 +1,21 @@
+/*
+colors:
+Brown : #e99b35
+Yellow: #ffff4d;
+Gray  : #ede6de;
+Teal  : #36e2e2
+Blue  : #1e8cfa;
+;
+*/
+
+#homeSearchBar{
+	height: 40px;
+	width: 33.3%;
+	position: relative;
+	left: 33.3%;
+	top: 300px;
+}
+
+input, select, textarea{
+	font-size: 26px;
+}
