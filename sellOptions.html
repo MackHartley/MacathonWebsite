@@ -4,6 +4,9 @@
 		<title>	MacBooks</title>
 	</head>
 	<body>
+		<div id="description">
+			<p>Select your class department and code</p>
+		</div>
 		<select name="depart" id="depart">
 			<option value="american">American Studies</option>
 			<option value="anthropology">Anthropology</option>
@@ -68,9 +71,16 @@
 		<fieldset id="multiCalculusBook">
 			<legend>Book</legend>
 			<p>
-			<image src="images/multi_calculus.jpg" alt="Image of the book" title="Calculus: Single &amp; Multivariable" id="bookImage" width="100"/>
+			<image src="images/multi_calculus.jpg" alt="Image of the book" title="Calculus: Single &amp; Multivariable" class="bookImage" width="100"/>
 			Calculus: Single &amp; Multivariable 6<sup>th</sup> Edition
 			<button id="ok" href="sellOptions2.html" onclick="location.href = 'sellOptions2.html';">OK</button><br /></p>
+		</fieldset>
+		<fieldset id="rstudiobook">
+			<legend>Book</legend>
+			<p>
+			<image src="images/rstudio.jpg" alt="Image of the book" title="Getting started with RStudio" class="bookImage" width="100"/>
+			Getting Started with RStudio
+			<button id="ok">OK</button><br /></p>
 		</fieldset>
 	</body>
 </html>
